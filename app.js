@@ -13,3 +13,7 @@ app.get('/api/users', (req, res) => {
 res.json({ users: [] });
 >>>>>>> 1ad05c2 (add user API endpoint)
 });
+
+app.get('/api/products', (req, res) => {
+res.json({ products: [] });
+});
